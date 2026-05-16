@@ -7,7 +7,14 @@
 </head>
 <body>
     <h1>Test</h1>
-    <a href="test.html" target="_blank"><button>cick</button></a>
-    
+    <a href="test.html" target="_blank"><button>click</button></a>
+    <input type="text" id="name" placeholder="กรอกชื่อ">
+    <button onclick="popup()">summit</button>
 </body>
+    <script>
+        let name = document.getElementById('name');
+        function popup(){
+            alert(name.value)
+        }
+    </script>
 </html>
